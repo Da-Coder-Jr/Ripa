@@ -18,7 +18,7 @@ pip install requests
 ### **3. Run the Script**
 Start the scraper by running:
 ```bash
-python github_scraper.py
+python github_scraper_main.py
 ```
 
 ### **4. Provide the GitHub Repository Link**
