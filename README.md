@@ -42,16 +42,5 @@ Would you like files saved in a folder (F) or displayed in the terminal (T)? [F/
 ```
 
 ### **6. Done!**
-- **Save Option**: The files will be saved in a folder that matches the repository structure.
-- **Preview Option**: The first 10 lines of each file will be displayed in the terminal.
 
-Example folder structure if the save option is used:
-```
-<repo_name>_files/
-├── README.md
-├── src/
-    └── main.py
-```
-
-That’s it! You’re all set to scrape GitHub repositories! 🚀
 
