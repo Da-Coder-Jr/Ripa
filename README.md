@@ -1,4 +1,4 @@
-GitHub Repo Scraper
+# GitHub Repo Scraper
 
 A sleek Python-based GitHub repository scraper that allows you to view or save repository file contents directly. Perfect for exploring repositories without needing the GitHub API key unless required for private repos.
 
