@@ -38,7 +38,7 @@ You will be asked how you want to handle the files:
 
 Example prompt:
 ```
-Would you like files saved in a folder (F) or displayed in the terminal (T)? [F/T]: F
+Save files locally (F), preview in terminal (T), or both (A)? [F/T/A]: T
 ```
 
 ### **6. Done!**
