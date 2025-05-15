@@ -42,5 +42,23 @@ Save files locally (F), preview in terminal (T), or both (A)? [F/T/A]: T
 ```
 
 ### **6. Done!**
+```mermaid
+flowchart TD
+  subgraph AI_System
+    AI_Terminal["AI Mini Terminal"]
+    AI_Model["AI Model"]
+  end
+
+  AI_Terminal --> |“Hey, run this…”| AI_Model
+  AI_Model --> |Responds with commands| Tool["Tool Processor"]
+  Tool --> |Formats & interprets| Cloud["Free Cloud Secure Terminal"]
+  Cloud --> |Executes & returns output| Conversation["Conversation Interface"]
+  Conversation --> |Sends result & context| AI_Terminal
+
+  style AI_Terminal    fill:#f9f,stroke:#333,stroke-width:1px
+  style AI_Model       fill:#fdd,stroke:#333,stroke-width:1px
+  style Tool           fill:#bbf,stroke:#333,stroke-width:1px
+  style Cloud          fill:#bfb,stroke:#333,stroke-width:1px
+  style Conversation   fill:#ffb,stroke:#333,stroke-width:1px
 
 
